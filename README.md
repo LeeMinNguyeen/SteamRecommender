@@ -2,7 +2,7 @@
 
 A comprehensive machine learning-based recommendation system for Steam games with an interactive Streamlit web application. This project implements Content-Based Filtering, Collaborative Filtering, and Hybrid approaches to provide personalized game recommendations.
 
-## 🎯 Overview
+## Overview
 
 This project builds a complete recommendation system for Steam games using machine learning techniques. The system analyzes game features (description, tags, genres) and user behavior patterns to suggest games that players might enjoy.
 
@@ -12,7 +12,7 @@ The project includes:
 - **Three Recommendation Engines**: Content-Based, Collaborative, and Hybrid
 
 
-#### 🤖 Model Testing
+#### Model Testing
 - **Interactive Interface**:
   - Searchable game dropdown (thousands of games)
   - Adjustable number of recommendations (5-20)
@@ -29,7 +29,7 @@ The project includes:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Data and modelfiles
 Download and put these files in their respective folders (check Project Structure):
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Usage
+## Usage
 
 ```powershell
 # Navigate to project directory
@@ -104,7 +104,7 @@ Press `Ctrl + C` in the terminal window to stop the server.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SteamRecommender/
@@ -127,7 +127,6 @@ SteamRecommender/
 │   │   ├── user_latent_factors.pkl # User latent factors from SVD
 │   │   ├── game_latent_factors.pkl # Game latent factors from SVD
 │   │   └── item_similarity_matrix.pkl # Item-item similarity matrix
-│   │
 │   └── Content-based/
 │       ├── games_with_info.pkl     # Games with metadata
 │       └── combined_cosine_sim_matrix.pkl # Content similarity matrix
@@ -137,7 +136,7 @@ SteamRecommender/
 
 ---
 
-## 🤖 Recommendation Methods
+## Recommendation Methods
 
 ### 1. Content-Based Filtering
 
@@ -235,7 +234,7 @@ Dataset from Kaggle: [Game Recommendations on Steam](https://www.kaggle.com/anto
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 ### Core Technologies
 - **Python 3.12**: Primary programming language
@@ -261,7 +260,7 @@ Dataset from Kaggle: [Game Recommendations on Steam](https://www.kaggle.com/anto
 - **Git**: Version control
 - **Virtual Environment**: Dependency isolation
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Model Performance
 - **Content-Based**: Fast recommendations (~0.1s per query)
