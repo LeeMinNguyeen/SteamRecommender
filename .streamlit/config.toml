@@ -1,0 +1,17 @@
+# Streamlit Configuration
+# Place this file in .streamlit/config.toml for custom settings
+
+[theme]
+primaryColor = "#1e88e5"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
